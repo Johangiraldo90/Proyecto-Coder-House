@@ -105,19 +105,40 @@
                 </nav>
                 <!-- Nav final -->
             </nav>
-            <div class="col-12 col-sm-6 container-column1 text-bg-dark p-3">
-                <h3>Noticia 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sed ea blanditiis ipsam mollitia rem
-                    dolorem excepturi aliquid at quis.</p>
-                <a href="./pages/noticias.html" type="button" class="btn btn-outline-primary"">Nacionales</a>
+            <div class="col-12 col-sm-12 container-form text-bg-dark p-3">
+                <!-- inicio formulario -->
+                <form id="Highlighted-form" class="col-sm-6 col-sm-offset-3" action="contact.php" method="post" novalidate="">
+					
+					<div class="form-group">
+                        <!-- inicio nombre -->
+					  <label class="control-label" for="contact-name">Nombre</label>
+					  <div class="controls">
+						<input id="contact-name" name="contactName" placeholder="Tu nombre completo" class="form-control requiredField Highlighted-label" data-new-placeholder="Your name" type="text" data-error-empty="Ingresa nombre completo">
+						<i class="fa fa-user"></i>
+					  </div>
+					</div><!-- fin nombre-->
+					<!-- inicio email -->
+					<div class="form-group">
+					  <label class="control-label" for="contact-mail">Correo</label>
+					  <div class=" controls">
+						<input id="contact-mail" name="email" placeholder="Ingrese el correo" class="form-control requiredField Highlighted-label" data-new-placeholder="Your email" type="email" data-error-empty="Please enter your email" data-error-invalid="Ingresa un email valido">
+						<i class="fa fa-envelope"></i>
+					  </div>
+					</div><!-- fin email -->
+                    <!-- inicio text-area -->
+					<div class="form-group">
+					  <label class="control-label" for="contact-message">Mensaje</label>
+						<div class="controls">
+							<textarea id="contact-message" name="comments" placeholder="Ingresa tu mensaje" class="form-control requiredField Highlighted-label" data-new-placeholder="Your message" rows="6" data-error-empty="Ingresa por favor tu mensaje"></textarea>
+							<i class="fa fa-comment"></i>
+						</div>
+					</div><!-- fin textarea -->
+					<p><button name="submit" type="submit" class="btn btn-info btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-location-arrow"></i>enviar</button></p>
+					<input type="hidden" name="submitted" id="submitted" value="true">	
+				</form><!-- fin formulario-->
+
+                
         </div>
-        <div class=" col-12 col-sm-6 container-column2 text-bg-dark p-3">
-                    <h3>Noticia 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sed ea blanditiis ipsam mollitia
-                        rem dolorem excepturi aliquid at quis.</p>
-                    <a href="./pages/internacionales.html" type="button"
-                        class="btn btn-outline-primary">Internacionales</a>
-            </div>
         </div>
     </main>
     <!-- inicio footer -->
