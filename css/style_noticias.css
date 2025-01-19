@@ -80,3 +80,11 @@
     width: 100%;
 }
 /* fin de noticias internacionales  */
+
+/* editores  inicio  */
+.card-img-top{
+    width: 60%;
+    height: 20rem;
+}
+
+/* editores final  */
