@@ -22,14 +22,35 @@
     width: 2em;
     height: 2em;
 }
+
+/* seccion de noticias inicio  */
 .container-column1{
-    height: 12em;
+    height: 30em;
     
 }
 
 .container-column2{
-    height: 12em;
+    height: 30em;
 }
+
+.container-column3{
+    height: 30em;
+}
+
+.container-column4{
+    height: 30em;
+}
+
+.container-column5{
+    height: 30em;
+}
+
+.container-column6{
+    height: 30em;
+}
+
+/* fin de noticias  */
+/* footer */
 .footer {
     background-color: #f8f9fa;
     padding: 20px 0;
@@ -46,3 +67,16 @@
 .social-icons a:hover {
     color: #007bff;
 }
+/* footer */
+
+/* Noticias nacionales inicio */
+.card{
+    margin: 10px;
+    padding: 3px;
+}
+
+.card-img-top{
+    height: 18rem;
+    width: 100%;
+}
+/* fin de noticias internacionales  */
