@@ -1,0 +1,58 @@
+// nav de noticias nacionales e internacionales
+.container-nav{
+    height: 5em;
+    padding-top: 0.4em;
+}
+.logo-navbar{
+    width: 2em;
+    height: 2em;
+}
+
+#navbar-noticias{
+    position: relative;
+    z-index: 1;
+}
+#noticias-nacionales-container{
+    position: relative;
+}
+.container-column1{
+    height: 30em;
+    
+}
+
+.container-column2{
+    height: 30em;
+}
+
+.container-column3{
+    height: 30em;
+}
+
+.container-column4{
+    height: 30em;
+}
+
+.container-column5{
+    height: 30em;
+}
+
+.container-column6{
+    height: 30em;
+}
+
+/* fin de noticias  */
+
+
+
+/* Noticias nacionales inicio */
+.card{
+    margin: 10px;
+    padding: 3px;
+}
+
+.card-img-top{
+    height: 18rem;
+    width: 100%;
+}
+/* fin de noticias internacionales  */
+/* seccion de noticias inicio  */

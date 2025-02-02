@@ -1,0 +1,21 @@
+// paleta de  colores 
+$color1: #007bff;
+$color2: #f8f9fa;
+$color3: #6c757d;
+
+.footer {
+    background-color: $color2;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    color: $color3;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: $color1;
+}
