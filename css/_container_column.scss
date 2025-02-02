@@ -9,5 +9,5 @@ $color3: #6c757d;
 }
 
 .container-column2{
-    height: 12em;
+    @extend .container-column1;
 }

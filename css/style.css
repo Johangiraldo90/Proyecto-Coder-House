@@ -26,11 +26,7 @@
   height: 2em;
 }
 
-.container-column1 {
-  height: 12em;
-}
-
-.container-column2 {
+.container-column1, .container-column2 {
   height: 12em;
 }
 

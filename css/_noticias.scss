@@ -15,29 +15,36 @@
 #noticias-nacionales-container{
     position: relative;
 }
+
+
+@mixin size ($height){
+    height: $height;
+
+}
+
 .container-column1{
-    height: 30em;
+    @include size(30em);
     
 }
 
 .container-column2{
-    height: 30em;
+    @include size(30em);
 }
 
 .container-column3{
-    height: 30em;
+    @include size(30em);
 }
 
 .container-column4{
-    height: 30em;
+    @include size(30em);
 }
 
 .container-column5{
-    height: 30em;
+    @include size(30em);
 }
 
 .container-column6{
-    height: 30em;
+    @include size(30em);
 }
 
 /* fin de noticias  */
