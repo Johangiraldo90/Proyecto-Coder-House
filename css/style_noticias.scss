@@ -1,6 +1,7 @@
 //paleta de colores 
 $color1: #007bff;
 $color2: #f8f9fa;
+$color3: #fff;
 
 @import "_header";
 @import "carrousel";
@@ -9,8 +10,15 @@ $color2: #f8f9fa;
 @import "_editores";
 @import "_contacto";
 
+// animaciones
+.card {
+    transition: 0.5 linear;
+}
 
-
+.card:hover{
+    color: $color3;
+    text-shadow: 0 0 1px $color3;
+}
 
 
 

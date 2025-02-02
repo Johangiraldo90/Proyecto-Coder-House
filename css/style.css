@@ -8,6 +8,15 @@
   background-color: #007bff;
 }
 
+.tittle {
+  transition: 1s linear;
+}
+
+.tittle:hover {
+  color: #fff;
+  text-shadow: 5px 0 0 10px #fff, 5px 0 0 30px #fff, 5px 0 0 40px #fff;
+}
+
 .container-carrousel {
   height: 30em;
 }
@@ -28,6 +37,12 @@
 
 .container-column1, .container-column2 {
   height: 12em;
+  transition: 0.5 linear;
+}
+
+.container-column1:hover, .container-column2:hover {
+  color: #f8f9fa;
+  text-shadow: 0 0 10px #007bff;
 }
 
 .footer {

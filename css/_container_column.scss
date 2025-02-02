@@ -5,7 +5,13 @@ $color3: #6c757d;
 
 .container-column1{
     height: 12em;
+    transition: 0.5 linear;
     
+}
+
+.container-column1:hover{
+    color: $color2;
+    text-shadow: 0 0 10px $color1
 }
 
 .container-column2{

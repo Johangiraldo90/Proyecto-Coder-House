@@ -2,6 +2,7 @@
 $color1: #007bff;
 $color2: #f8f9fa;
 $color3: #6c757d;
+$color4: #fff;
 
 .logo_tittle{
     height: 9em;
@@ -10,4 +11,14 @@ $color3: #6c757d;
 .container-header{
     height: 9.1em;
     background-color: $color1;
+}
+
+.tittle{
+    transition: 1s linear;
+}
+
+.tittle:hover{
+    color: #fff;
+    text-shadow: 5px 0 0 10px $color4, 5px 0 0 30px $color4, 5px 0 0 40px $color4;    
+
 }
